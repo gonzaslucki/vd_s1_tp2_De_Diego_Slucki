@@ -31,6 +31,7 @@ let chart1 = Plot.plot({
     color: {
     },
   })
+
   d3.select('#chart').append(() => chart)
 })
 

@@ -51,9 +51,27 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
       width: 714
     })
 
+    let chart5 = Plot.plot({
+      marks: [
+        Plot.barY(data, 
+          Plot.binX(
+            {y:"count"},
+            {
+            x: 'anio_mision',
+            y:'genero',
+            fill: 'genero',
+          }),
+        )
+      ],
+      marginLeft: 70,
+      color: {
+        legend: true,
+      }
+    })
+
     
 
-    d3.select('#chart').append(() => chart4)
+    d3.select('#chart').append(() => chart5)
 })
 
 
