@@ -64,8 +64,23 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
         )
       ],
       marginLeft: 70,
+      marginBottom: 40,
       color: {
+        scheme: 'ylgn',
         legend: true,
+      },
+      x: {
+        ticks: 20,
+        label:'Año de la mision',
+        line:true
+      },
+      y: {
+        label: 'Cantidad de astronautas',
+        grid: true, line: true
+      },
+      style: {
+        fontFamily: "sans-serif",
+        fontSize: 12
       }
     })
 

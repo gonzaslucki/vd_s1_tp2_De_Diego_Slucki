@@ -28,8 +28,10 @@ let chart1 = Plot.plot({
         title: 'nacionalidad',
       }),
     ],
-    color: {
-    },
+    style: {
+      fontFamily: "sans-serif",
+      fontSize: 12
+    }  
   })
 
   d3.select('#chart').append(() => chart)

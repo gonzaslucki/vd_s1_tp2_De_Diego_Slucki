@@ -17,7 +17,11 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
         tickFormat: 'd',
       },
       color: {
+        scheme: 'ylgn',
         legend: true,
+      },style: {
+        fontFamily: "sans-serif",
+        fontSize: 12
       }
     })
 
