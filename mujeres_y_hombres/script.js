@@ -66,13 +66,14 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
       marginLeft: 70,
       marginBottom: 40,
       color: {
-        scheme: 'ylgn',
+        scheme: 'Blues',
         legend: true,
       },
       x: {
-        ticks: 20,
         label:'Año de la mision',
-        line:true
+        line:true,
+        tickFormat: "d",
+        ticks: {values: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]}
       },
       y: {
         label: 'Cantidad de astronautas',

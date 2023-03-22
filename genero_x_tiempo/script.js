@@ -13,8 +13,15 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
           )
         ),
       ],
+      marginBottom: 40,
       x: {
+        label:"Año de la misión",
         tickFormat: 'd',
+        line:true
+      },
+      y:{
+        label: "Duración de la misión",
+        line: true
       },
       color: {
         scheme: 'ylgn',
