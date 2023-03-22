@@ -7,7 +7,7 @@ let chart = Plot.plot({
         x: 'anio_nacimiento',
         y: 'anio_mision',
         r: 'mision_hs',
-        fill: 'eva_mision_hs',  // o estado civil 
+        fill: 'eva_mision_hs',  
         opacity: 0.5,
         title: 'nacionalidad',
       }),
@@ -27,7 +27,7 @@ let chart1 = Plot.plot({
         x: 'anio_nacimiento',
         y: 'anio_mision',
         r: 'mision_hs',
-        fill: 'eva_mision_hs',  // o estado civil 
+        fill: 'eva_mision_hs',  
         opacity: 0.5,
         title: 'nacionalidad',
       }),
