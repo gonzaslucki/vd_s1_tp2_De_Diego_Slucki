@@ -72,5 +72,5 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
       }
     })
 
-    d3.select('#chart').append(() => chart2)
+    d3.select('#chart').append(() => chart)
 })
