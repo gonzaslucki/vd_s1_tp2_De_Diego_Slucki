@@ -11,9 +11,30 @@ let chart = Plot.plot({
         opacity: 0.5,
         title: 'nacionalidad',
       }),
-    ],style: {
+    ],
+    marginBottom: 40,
+    marginRight: 10,
+    x: {
+      label:"Año de la misión",
+      tickFormat: 'd',
+      line:true
+    },
+    y:{
+      label: "Duración de la misión",
+      line: true
+    },
+    x: {
+      label:"Año de nacimiento de los astronautas",
+      tickFormat: 'd',
+      line:true
+    },
+    y:{
+      label: "Año de la mision",
+      line: true
+    },
+    style: {
       fontFamily: "sans-serif",
-      fontSize: 12
+      fontSize: 13
     },
     color:{
       scheme: 'reds',
@@ -32,6 +53,7 @@ let chart1 = Plot.plot({
         title: 'nacionalidad',
       }),
     ],
+    
     style: {
       fontFamily: "sans-serif",
       fontSize: 12
