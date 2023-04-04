@@ -20,7 +20,7 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
         line:true
       },
       y:{
-        label: "Duración de la misión",
+        label: "Duración de la misión (en horas)",
         line: true
       },
       color: {
