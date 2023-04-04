@@ -38,8 +38,8 @@ let chart = Plot.plot({
     },
     color:{
       scheme: 'reds',
-      legend: true
-    }
+      legend: true,
+    },
   })
 
   d3.select('#chart').append(() => chart)

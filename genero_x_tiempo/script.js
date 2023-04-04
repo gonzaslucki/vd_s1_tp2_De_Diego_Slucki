@@ -77,26 +77,26 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
         ),
       ],
       marginBottom: 40,
-      x: {
-        label:"Año de la misión",
-        tickFormat: 'd',
-        line:true,
-        color: "white" // Set the label color and line color to white
-      },
-      y:{
-        label: "Duración de la misión",
-        line: true,
-        color: "white" // Set the label color and line color to white
-      },
-      color: {
-        scheme: 'ylgn',
-        legend: true,
-      },
-      style: {
-        fontFamily: "sans-serif",
-        fontSize: 12,
-        background: "#91B4EB" // Set the background color to #91B4EB
-      }
+      // x: {
+      //   label:"Año de la misión",
+      //   tickFormat: 'd',
+      //   line:true,
+      //   color: "white" 
+      // },
+      // y:{
+      //   label: "Duración de la misión",
+      //   line: true,
+      //   color: "white" 
+      // },
+      // color: {
+      //   scheme: 'ylgn',
+      //   legend: true,
+      // },
+      // style: {
+      //   fontFamily: "sans-serif",
+      //   fontSize: 12,
+      //   background: "#91B4EB" 
+      // }
     })
     
 
