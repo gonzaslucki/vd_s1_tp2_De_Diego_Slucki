@@ -7,4 +7,8 @@ body{
 }
 h2 {
     text-decoration: underline;
-  }
+}
+
+p {
+    margin: 0 50px;
+}

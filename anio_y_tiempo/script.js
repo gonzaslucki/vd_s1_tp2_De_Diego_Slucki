@@ -39,6 +39,7 @@ let chart = Plot.plot({
     color:{
       scheme: 'reds',
       legend: true,
+      label: 'Horas fuera de la nave'
     },
   })
 
